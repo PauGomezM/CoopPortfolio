@@ -1,8 +1,76 @@
-/*****************MAIN SECTION*******************/
-nav {
-    float: right;
-    margin-top: 0px;
+/*****************body*******************/
+body {
+    background-image: url(img/mountains.jpg);
 }
+
+/*****************MAIN SECTION*******************/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e004d;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
 .logo {
-    text-decoration: underline;
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Poppins';
+    padding-left: 15px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    padding-right: 15px;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links li:last-child {
+    margin-right: 0;
+}
+
+.navbar-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*****************IMAGES*******************/
+.profiles {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.profile1 {
+    text-align: center;
+    margin-right: 120px;
+
+}
+.aleix {
+    border-radius: 90%;
+    width: 200px;
+}
+
+.pau {
+    border-radius: 90%;
+    width: 200px;
+}
+
+/*****************INTRODUCTION*******************/
+.intro {
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 20px;
 }
