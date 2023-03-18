@@ -59,43 +59,12 @@ body {
     border-right: 20px solid transparent;
     border-top: 20px solid rgb(255, 255, 255);
     margin: auto;
-    margin-top: 180px;
+    margin-top: 240px;
     animation: float_arrow 2s ease-in-out infinite;
-  }
-
-.dialogue_container{
-    position: absolute;
-    padding: 300px;
-    color: blue;
-    margin: 0%;
-}
-.arrow-right {
-    width: 0; 
-    height: 0; 
-    position: relative;
-
-    top: 0px;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid rgb(245, 14, 14);
 }
 
-.dialogue_aleix {
-    text-align: center;
-    box-shadow: #000000;
-    width: 15%;
-    position: absolute;
-    left: 16%;
-    top: 25%;
-    font-family: 'Comfortaa';
-    font-size: 20px;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 15px;
-    justify-content: center;
-    box-shadow: 0px 5px 12px 0 rgba(5, 5, 5, 0.418);
 
-}
+
 
 .dialogue_pau {
     text-align: center;
@@ -179,15 +148,15 @@ body {
 }
 @keyframes float_arrow {
 	0% {
-        opacity: 1;
+        opacity: 0.2;
 		transform: translatey(0px);
 	}
 	50% {
-        opacity: 0.2;
+        opacity: 1;
 		transform: translatey(-10px);
 	}
 	100% {
-        opacity: 1;
+        opacity: 0.2;
 		transform: translatey(0px);
 	}
 }
@@ -195,18 +164,61 @@ body {
 .aleix_dialogue {
     padding: 20px;
     position: absolute;
-    margin-top: 12%;
+    top: 10px;
+    margin-top: 10%;
     margin-left: 10%;
-    background-color: beige;
-    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: #000000;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    justify-content: center;
+    box-shadow: 0px 5px 40px 0 rgba(5, 5, 5, 0.418);
+    opacity: 1;
+    
 }
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    bottom: 0px;
+    right: -27px;
+    border-top: 30px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 50px solid rgb(255, 255, 255);
+}
+
 .pau_dialogue {
     padding: 20px;
     position: absolute;
-    margin-top: 12%;
-    margin-left: 70%;
-    background-color: beige;
-    border-radius: 20px;
+    margin-top: 18%;
+    margin-left: 66%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: #000000;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    justify-content: center;
+    box-shadow: 0px 5px 40px 0 rgba(5, 5, 5, 0.418);
+    opacity: 1;
+}
+
+.arrow-left{
+    position: absolute;
+    z-index: 10;
+    width: 0; 
+    height: 0;
+    top: 0;
+    left: -29px;
+    border-top: -30px solid transparent;
+    border-bottom: 15px solid transparent; 
+    border-right:30px solid rgb(255, 255, 255); 
+    
 }
 /*****************INTRODUCTION*******************/
 
