@@ -35,23 +35,24 @@ body {
     display: flex;
     flex-direction: row;
     font-family: 'Comfortaa';
-    padding-right: 15px;
 }
 
 .navbar-links li {
-    margin-right: 20px;
-}
-
-.navbar-links li:last-child {
-    margin-right: 0;
+    margin-right: 10px;
 }
 
 .navbar-links li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
 }
-
+.navbar-links li a:hover {
+    background-color: rgba(169, 169, 169, 0.2);
+    padding: 15px;
+    border-radius: 20px;
+}
 .arrow-down {
     width: 0; 
     height: 0; 
@@ -62,10 +63,6 @@ body {
     margin-top: 240px;
     animation: float_arrow 2s ease-in-out infinite;
 }
-
-
-
-
 .dialogue_pau {
     text-align: center;
     box-shadow: #000000;
@@ -95,12 +92,10 @@ body {
     font-family: Comfortaa;
     margin-right: 120px;
     font-weight: 1000;
-    cursor: pointer;
 }
 .profile_pau {
     font-family: Comfortaa;
     font-weight: 1000;
-    cursor: pointer;
 }
 .profile_pic{
     border-radius: 90%;
@@ -110,7 +105,7 @@ body {
     overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
-	
+	cursor: pointer;
 }
 .profile_pic.stay_up {
 	transform: translatey(-3px);
@@ -263,11 +258,11 @@ body {
     padding: 5px;
     font-size: 15px;
     font-weight: 600;
-    box-shadow: rgb(0, 81, 255) -2px -2px 0px 2px, rgb(41, 255, 21) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    box-shadow: rgb(69, 128, 255) -2px -2px 0px 2px, rgb(211, 146, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
     transition: all 0.3s;
 }
 .button1:hover {
-        box-shadow: rgb(41, 255, 21) 0px 0px 0px 4px, rgb(0, 81, 255) -2px -2px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+        box-shadow: rgb(211, 146, 255) 0px 0px 0px 4px, rgb(69, 128, 255) -2px -2px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
         transform: scale(1.03);
     }
     
