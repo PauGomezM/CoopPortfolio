@@ -183,7 +183,23 @@ body {
 		transform: translatey(0px);
 	}
 }
-
+/*************************DIALOGUES********************/
+.aleix_dialogue {
+    padding: 20px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 10%;
+    background-color: beige;
+    border-radius: 20px;
+}
+.pau_dialogue {
+    padding: 20px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 70%;
+    background-color: beige;
+    border-radius: 20px;
+}
 /*****************INTRODUCTION*******************/
 
 .intro1 {
