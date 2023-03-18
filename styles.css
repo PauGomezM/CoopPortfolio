@@ -208,12 +208,17 @@ body {
 }
 /*****************split1*******************/
 .split1 {
-    padding: 100px;
+padding: 200px;
+    background: #1c6cff;
+  background-image: -webkit-linear-gradient(top, #1c6cff, #ffffff);
+  background-image: -moz-linear-gradient(top, #1c6cff, #ffffff);
+  background-image: -ms-linear-gradient(top, #1c6cff, #ffffff);
+  background-image: -o-linear-gradient(top, #1c6cff, #ffffff);
+  background-image: linear-gradient(to bottom, #1c6cff, #ffffff);
 }
 /*****************CONTAINER 2*******************/
 .container2 {
-    background-color: #000269;
-    padding-top: 250px;
+    background-color: #ffffff;
     padding-bottom: 250px;
 }
 .projects {
@@ -225,7 +230,8 @@ body {
     width: 330px;
     margin-left: 70px;
     margin-right: 70px;
-    color: #ffffff;
+    color: #000000;
+    border: #000000;
 }
 .p1 {
     width: 350px;
