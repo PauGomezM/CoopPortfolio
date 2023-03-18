@@ -113,7 +113,7 @@ body {
 	
 }
 .profile_pic.stay_up {
-	transform: translatey(-10px);
+	transform: translatey(-3px);
 
 }
 .profile_pic.stay_down {
@@ -177,7 +177,7 @@ body {
     justify-content: center;
     box-shadow: 0px 5px 40px 0 rgba(5, 5, 5, 0.418);
     opacity: 1;
-    
+    z-index: 2;
 }
 
 .arrow-right {
@@ -189,6 +189,7 @@ body {
     border-top: 30px solid transparent;
     border-bottom: 0px solid transparent;
     border-left: 50px solid rgb(255, 255, 255);
+    z-index: -1;
 }
 
 .pau_dialogue {
@@ -210,7 +211,6 @@ body {
 
 .arrow-left{
     position: absolute;
-    z-index: 10;
     width: 0; 
     height: 0;
     top: 0;
