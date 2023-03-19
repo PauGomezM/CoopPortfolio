@@ -1,4 +1,8 @@
 /*****************body*******************/
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
     margin: 0px;
 
@@ -63,20 +67,7 @@ body {
     margin-top: 240px;
     animation: float_arrow 2s ease-in-out infinite;
 }
-.dialogue_pau {
-    text-align: center;
-    box-shadow: #000000;
-    position: absolute;
-    width: 12%;
-    right: 18%;
-    top: 35%;
-    font-family: 'Comfortaa';
-    font-size: 20px;
-    background-color: #ffffff;
-    color: #000000;
-    padding: 15px;
-    box-shadow: 0px 5px 12px 0 rgba(5, 5, 5, 0.418);
-}
+
 
 /*****************IMAGES*******************/
 .profiles {
@@ -156,6 +147,10 @@ body {
 	}
 }
 /*************************DIALOGUES********************/
+.dialogue_box {
+    transition: opacity 1s;
+}
+
 .aleix_dialogue {
     padding: 20px;
     position: absolute;
@@ -171,8 +166,13 @@ body {
     color: #000000;
     justify-content: center;
     box-shadow: 0px 5px 40px 0 rgba(5, 5, 5, 0.418);
-    opacity: 1;
     z-index: 2;
+    opacity: 1;
+    
+}
+
+.hidden{
+    opacity: 0;
 }
 
 .arrow-right {
@@ -281,3 +281,5 @@ body {
     width: 350px;
     border-radius: 20px;
 }
+
+
