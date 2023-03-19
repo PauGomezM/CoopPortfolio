@@ -2,4 +2,4 @@
 
 Front-end web development project made by 2 colleagues. 
 
-Check it out here: [Shared portfolio](paugomezm.github.io/CoopPortfolio/)
+Check it out here: [Shared portfolio](https://paugomezm.github.io/CoopPortfolio/)
