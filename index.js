@@ -12,9 +12,12 @@ for (i=0; i<2; i++){
 
     pic.addEventListener('mouseout', () => {
         pic.classList.remove('stay_up');
-        dialogue_box.classList.toggle('shown');
+        setTimeout(toggleShown, 300)
     })
 
+    function toggleShown(){
+        dialogue_box.classList.toggle('shown');
+    }
 }
 
 /* ---- Scroll window smoothly ---- */
