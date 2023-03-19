@@ -18,14 +18,34 @@ for (i=0; i<2; i++){
 }
 
 /* ---- Scroll window smoothly ---- */
-const home_button = document.querySelector('.navbar-links');
-home_button.addEventListener('mouseover', scrollFunc)
 
-function scrollFunc(){
-    window.scrollTo(0, 1200);
+const navbarHome = document.querySelectorAll('.navbar-links a')[0];
+
+navbarHome.addEventListener('click', (event) => {
+    event.preventDefault(); //list element href is set to top (#), hence we prevent default behaviour
+    window.scrollTo({ top: 100, behavior: 'smooth' });
+});
+
+const navbarProjects = document.querySelectorAll('.navbar-links a')[1];
+
+navbarProjects.addEventListener('click', (event) => {
+    event.preventDefault(); //list element href is set to top (#), hence we prevent default behaviour
+    window.scrollTo({ top: 1100, behavior: 'smooth' });
+});
+
+const navbarAbout = document.querySelectorAll('.navbar-links a')[2];
+
+navbarAbout.addEventListener('click', (event) => {
+    event.preventDefault(); //list element href is set to top (#), hence we prevent default behaviour
+    window.scrollTo({ top: 1500, behavior: 'smooth' });
+});
+
+const arrowPadding = document.querySelector('.arrow-padding');
+
+arrowPadding.addEventListener('click', () => {
+    setTimeout(scrollToProjects, 100)
+});
+
+function scrollToProjects(){
+    window.scrollTo({ top: 1100, behavior: 'smooth' });
 }
-
-/*
-var el = document.querySelector('.dialogue_box');
-el.style.display = "none";
-*/

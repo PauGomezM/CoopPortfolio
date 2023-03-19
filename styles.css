@@ -59,16 +59,31 @@ body {
     border-radius: 20px;
 }
 .arrow-down {
+    position: relative;
     width: 0; 
     height: 0; 
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid rgb(255, 255, 255);
     margin: auto;
-    margin-top: 240px;
-    animation: float_arrow 2s ease-in-out infinite;
+    animation: float_arrow 2s ease-in infinite;
 }
 
+.arrow-padding{
+    position: relative;
+    padding-bottom: 18px;
+    padding-top: 32px;
+    margin-top: 208px;
+    border-radius: 15px;
+    opacity: 1;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+
+.arrow-padding:hover{
+    background-color: rgba(77, 71, 71, 0.39);
+}
 
 /*****************IMAGES*******************/
 .profiles {
@@ -283,63 +298,4 @@ body {
 }
 .container2{
     position: relative;
-}
-
-span{
-    position: absolute;
-    top:50%;
-    left:50%;
-    width: 4px;
-    height: 4px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 4px rgba(255,255,255,0.1),0 0 0 8px rgba(255,255,255,0.1),0 0 20px rgba(255,255,255,0.1);
-    animation: animate 3s linear infinite;
-}
-span::before{
-    content:'';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
-    height: 1px;
-    background: linear-gradient(90deg,#fff,transparent);
-}
-@keyframes animate
-{
-    0%
-    {
-        transform: rotate(315deg) translateX(0);
-        opacity: 0.5;
-    }
-    70%
-    {
-        opacity: 0.5;
-    }
-    100%
-    {
-        transform: rotate(315deg) translateX(-1000px);
-        opacity: 0;
-    }
-}
-span:nth-child(1){
-    top: 0;
-    right: 0;
-    left: initial;
-    animation-delay: 0s;
-    animation-duration: 1s;
-}
-span:nth-child(2){
-    top: 0;
-    right: 80px;
-    left: initial;
-    animation-delay: 0.2s;
-    animation-duration: 3s;
-}
-span:nth-child(3){
-    top: 80;
-    right: 0px;
-    left: initial;
-    animation-delay: 0.4s;
-    animation-duration: 2s;
 }
