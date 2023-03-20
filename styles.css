@@ -313,8 +313,8 @@ body {
     cursor: pointer;
     text-decoration: none;
     position: relative;
-    color: #000000;
-    background: #ffffff;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
     line-height: 30px;
     border-radius: 10px;
     padding: 5px;
@@ -327,13 +327,18 @@ body {
         box-shadow: rgb(211, 146, 255) 0px 0px 0px 4px, rgb(69, 128, 255) -2px -2px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
         transform: scale(1.03);
     }
-    
+.a_project {
+    color: #ffffff;
+    text-decoration: none;
+}
 .project {
     width: 350px;
+    background-color: rgb(0, 0, 0);
 }
 .p1 {
     width: 350px;
     border-radius: 20px;
+    background-color: rgb(0, 0, 0);
 }
 .p2 {
     width: 350px;
@@ -349,13 +354,18 @@ body {
 /************************ABOUT*************************/
 .about {
     padding: 50px;
-
-    
+    text-align: center;
 }
 .about_p1 {
-    display: flex;
-
-
-
-    
+    float: right;
+    width: 1000px;
+}
+.about_p2 {
+    float: left;
+}
+.about_p2 {
+    width: 1000px;
+}
+.img_about2 {
+    float: right;
 }
