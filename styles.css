@@ -2,8 +2,8 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-  }
-  
+}
+
 body {
     margin: 0px;
 
@@ -53,15 +53,17 @@ body {
     padding: 15px;
     border-radius: 20px;
 }
+
 .navbar-links li a:hover {
     background-color: rgba(169, 169, 169, 0.2);
     padding: 15px;
     border-radius: 20px;
 }
+
 .arrow-down {
     position: relative;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid rgb(255, 255, 255);
@@ -69,7 +71,7 @@ body {
     animation: float_arrow 2s ease-out infinite;
 }
 
-.arrow-padding{
+.arrow-padding {
     position: relative;
     padding-bottom: 18px;
     padding-top: 32px;
@@ -79,10 +81,10 @@ body {
     z-index: 10;
     cursor: pointer;
     transition: all 0.25s;
-    
+
 }
 
-.arrow-padding:hover{
+.arrow-padding:hover {
     background-color: rgba(101, 88, 104, 0.253);
     box-shadow: 0px 0px 5px 10px rgba(101, 88, 104, 0.253);
 }
@@ -95,80 +97,92 @@ body {
     display: flex;
     justify-content: center;
     z-index: 10;
-    
+
 }
+
 .profile_aleix {
     text-align: center;
     font-family: Comfortaa;
     margin-right: 120px;
     font-weight: 1000;
 }
+
 .profile_pau {
     font-family: Comfortaa;
     font-weight: 1000;
 }
-.profile_pic{
+
+.profile_pic {
     border-radius: 90%;
     width: 200px;
     border-color: #000000;
     border: 3px white solid;
     overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
-	cursor: pointer;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+    cursor: pointer;
 }
+
 .profile_pic.stay_up {
-	transform: translatey(-3px);
+    transform: translatey(-3px);
 
 }
+
 .profile_pic.stay_down {
-	transform: translatey(0px);
+    transform: translatey(0px);
 
 }
 
-.name{
+.name {
     cursor: default;
 }
 
 @keyframes full_float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.8);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-10px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.8);
-		transform: translatey(0px);
-	}
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.8);
+        transform: translatey(0px);
+    }
+
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-10px);
+    }
+
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.8);
+        transform: translatey(0px);
+    }
 }
 
 @keyframes half_float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.8);
-		transform: translatey(0px);
-	}
-	100% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-10px);
-	}
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.8);
+        transform: translatey(0px);
+    }
+
+    100% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-10px);
+    }
 }
+
 @keyframes float_arrow {
-	0% {
+    0% {
         opacity: 0.2;
-		transform: translatey(0px);
-	}
-	50% {
+        transform: translatey(0px);
+    }
+
+    50% {
         opacity: 1;
-		transform: translatey(-10px);
-	}
-	100% {
+        transform: translatey(-10px);
+    }
+
+    100% {
         opacity: 0.2;
-		transform: translatey(0px);
-	}
+        transform: translatey(0px);
+    }
 }
+
 /*************************DIALOGUES********************/
 .dialogue_box {
     transition: opacity 0.5s;
@@ -195,13 +209,13 @@ body {
     cursor: default;
 }
 
-.shown{
+.shown {
     opacity: 1;
 }
 
 .arrow-right {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     position: absolute;
     bottom: 0px;
     right: -27px;
@@ -229,7 +243,7 @@ body {
     cursor: default;
 }
 
-.info-box{
+.info-box {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -251,21 +265,23 @@ body {
     transition: all 0.4s;
     cursor: default;
 }
-.info-box:hover{
+
+.info-box:hover {
     opacity: 0.6;
 }
 
-.arrow-left{
+.arrow-left {
     position: absolute;
-    width: 0; 
+    width: 0;
     height: 0;
     top: 0;
     left: -29px;
     border-top: -30px solid transparent;
-    border-bottom: 15px solid transparent; 
-    border-right:30px solid rgb(255, 255, 255); 
-    
+    border-bottom: 15px solid transparent;
+    border-right: 30px solid rgb(255, 255, 255);
+
 }
+
 /*****************INTRODUCTION*******************/
 
 .intro1 {
@@ -284,6 +300,7 @@ body {
     box-shadow: 2px 10px 8px 0 rgba(5, 5, 5, 0.418);
     cursor: default;
 }
+
 /*****************CONTAINER 2*******************/
 .title_projects {
     color: #ffffff;
@@ -295,21 +312,24 @@ body {
     font-size: 50px;
     padding-top: 100px;
 }
+
 .container2 {
     background-color: #000000;
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
 .projects {
     display: flex;
     justify-content: center;
 }
+
 .button1 {
     margin: 30px;
     border-width: 10px;
     display: inline-block;
     outline: 0;
-    border:0;
+    border: 0;
     cursor: pointer;
     text-decoration: none;
     position: relative;
@@ -323,49 +343,69 @@ body {
     box-shadow: rgb(69, 128, 255) -2px -2px 0px 2px, rgb(211, 146, 255) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
     transition: all 0.3s;
 }
+
 .button1:hover {
-        box-shadow: rgb(211, 146, 255) 0px 0px 0px 4px, rgb(69, 128, 255) -2px -2px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
-        transform: scale(1.03);
-    }
+    box-shadow: rgb(211, 146, 255) 0px 0px 0px 4px, rgb(69, 128, 255) -2px -2px 0px 2px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.03);
+}
+
 .a_project {
     color: #ffffff;
     text-decoration: none;
 }
+
 .project {
     width: 350px;
     background-color: rgb(0, 0, 0);
 }
+
 .p1 {
     width: 350px;
     border-radius: 20px;
     background-color: rgb(0, 0, 0);
 }
+
 .p2 {
     width: 350px;
     border-radius: 20px;
 }
+
 .p3 {
     width: 350px;
     border-radius: 20px;
 }
-.container2{
+
+.container2 {
     position: relative;
 }
+
 /************************ABOUT*************************/
 .about {
     padding: 50px;
     text-align: center;
 }
+
+.about1 {
+    padding: 30px;
+}
+
+.about2 {
+    padding: 30px;
+}
+
 .about_p1 {
     float: right;
     width: 1000px;
 }
+
 .about_p2 {
     float: left;
 }
+
 .about_p2 {
     width: 1000px;
 }
+
 .img_about2 {
     float: right;
 }
