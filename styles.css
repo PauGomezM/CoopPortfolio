@@ -83,8 +83,8 @@ body {
 }
 
 .arrow-padding:hover{
-    background-color: rgba(104, 80, 109, 0.253);
-    box-shadow: 0px 0px 5px 10px rgba(104, 80, 109, 0.253);
+    background-color: rgba(101, 88, 104, 0.253);
+    box-shadow: 0px 0px 5px 10px rgba(101, 88, 104, 0.253);
 }
 
 /*****************IMAGES*******************/
@@ -248,7 +248,7 @@ body {
     justify-content: center;
     box-shadow: 0px 5px 40px 0 rgba(5, 5, 5, 0.418);
     opacity: 0.1;
-    transition: all 0.5s;
+    transition: all 0.4s;
     cursor: default;
 }
 .info-box:hover{
