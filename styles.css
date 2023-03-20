@@ -285,10 +285,20 @@ body {
     cursor: default;
 }
 /*****************CONTAINER 2*******************/
+.title_projects {
+    color: #ffffff;
+    background-color: #000000;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 50px;
+    padding-top: 100px;
+}
 .container2 {
     background-color: #000000;
-    padding-top: 300px;
-    padding-bottom: 250px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .projects {
     display: flex;
@@ -335,4 +345,12 @@ body {
 }
 .container2{
     position: relative;
+}
+/************************ABOUT*************************/
+.about {
+    padding: 50px;
+}
+.about_p1 {
+    display: flex;
+    
 }
