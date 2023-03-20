@@ -40,7 +40,7 @@ const navbarAbout = document.querySelectorAll('.navbar-links a')[2];
 
 navbarAbout.addEventListener('click', (event) => {
     event.preventDefault(); //list element href is set to top (#), hence we prevent default behaviour
-    window.scrollTo({ top: 1500, behavior: 'smooth' });
+    window.scrollTo({ top: 2100, behavior: 'smooth' });
 });
 
 const arrowPadding = document.querySelector('.arrow-padding');
